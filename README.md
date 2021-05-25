@@ -31,4 +31,4 @@ Here, logging.basicConfig(filename, level, format) is used to configure the logg
 <p>
 Then we are setting up the listener by creating an instance in a with statement with link to the methods that we declared above and finally using it's .join() method to join it to the main thread.</p><hr>
 <p>When the above code is executed nothing will be shown in the terminal but after minimising the window if you do some keyboard activity then in the file_path that you used in the program there will be a .txt file comprising of data somthing like below:-</p>
-<img src="https://user-images.githubusercontent.com/70680058/119493269-a6af4c80-bd7d-11eb-945c-c8899c2fe027.png">
+<img align="center" src="https://user-images.githubusercontent.com/70680058/119493269-a6af4c80-bd7d-11eb-945c-c8899c2fe027.png">

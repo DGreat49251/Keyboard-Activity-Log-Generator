@@ -18,7 +18,7 @@ Keyboard activity mainly comprises of the following two events:-
     <p>def on_press(key):  #Function for key press action<br>
       logging.info("Key pressed : {0}".format(key)) </p>   
 Here, key is the key pressed and logging.info() is the function which writes (logs or creates a log) to our desired file with logging level = INFO in the specified format. </p>
-</li><li><<b>
+</li><li><b>
 Key Release</b> - Just after performing the above action, when the finger is removed from the key that action is called key release. Hera also lets declare what to do when this action occurs:-
 <p>
 def on_release(key):    #function for key release action<br>
